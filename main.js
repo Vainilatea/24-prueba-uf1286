@@ -1,6 +1,6 @@
 function generarArrayBidimensional() {
   function generarArray() {
-    return [0, 1, 2];
+    return []
   }
 
   var array = [];
@@ -12,11 +12,11 @@ function generarArrayBidimensional() {
 
 function mostrarArrayBidimensional(arrayBidimensional) {
   function mostrarArray(array) {
-    array.forEach(function (elemento) {
+    array.forEach (function (elemento) {
       var formatedElemento = (" " + elemento).slice(-2);
       process.stdout.write(`| ${formatedElemento} `);
     });
-    console.log("|");
+    console.log(array);
   }
 
   function mostrarLinea() {

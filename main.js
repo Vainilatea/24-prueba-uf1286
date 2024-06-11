@@ -16,7 +16,7 @@ function mostrarArrayBidimensional(arrayBidimensional) {
       var formatedElemento = (" " + elemento).slice(-2);
       process.stdout.write(`| ${formatedElemento} `);
     });
-    console.log(array);
+    console.log("|");
   }
 
   function mostrarLinea() {
